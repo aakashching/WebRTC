@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const socket = require("socket.io");
 
-const port = 3000;
+const port = 3000 || process.env.PORT;
 
 app.use(express.static("public"));
 
