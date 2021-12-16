@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:3000");
+var socket = io.connect("https://agile-tundra-61649.herokuapp.com/");
 var chatLobby = document.getElementById("chat-app");
 var chatRooom = document.getElementById("video-chat-room");
 var roomName = document.getElementById("roomName");
